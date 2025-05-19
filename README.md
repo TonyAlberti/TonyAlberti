@@ -39,14 +39,6 @@
 
 ---
 
-### 🗂 Repositórios Recentes
-
-> 🔄 Atualizado automaticamente com seus repositórios mais recentes:
-
-<!--START_SECTION:repositories-->
-<!--END_SECTION:repositories-->
-
----
 
 ### 💬 Contato
 
