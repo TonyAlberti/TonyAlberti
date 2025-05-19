@@ -1,0 +1,26 @@
+name: Atualizar Repositórios Recentes
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Atualiza a cada 6 horas
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar o repositório
+        uses: actions/checkout@v3
+
+      - name: Gerar lista de repositórios
+        uses: gayanvoice/github-profile-readme-generator@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit e push do README.md
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "🔄 Atualizando lista de repositórios"
+          git push
