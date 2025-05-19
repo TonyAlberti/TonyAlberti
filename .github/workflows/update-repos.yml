@@ -19,7 +19,7 @@ jobs:
           script: |
             const fs = require('fs');
             const path = './README.md';
-            const { data: repos } = await github.repos.listForUser({
+            const { data: repos } = await github.rest.repos.listForUser({
               username: context.repo.owner,
               sort: 'updated',
               per_page: 5
