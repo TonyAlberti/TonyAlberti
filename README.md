@@ -10,7 +10,6 @@
 - 📍 São Paulo, SP — Brasil  
 - 🎯 Buscando oportunidade como **Desenvolvedor Júnior**  
 - 💼 Freelancer desenvolvendo sistemas **gerenciais e financeiros**  
-- 👨‍🎓 Estudando **Administração** na UNISA e em transição para área tech  
 - 📈 Experiência sólida com **atendimento ao cliente** e resolução de problemas  
 - 🧠 Aprendizado rápido, proatividade e foco em soluções criativas  
 
